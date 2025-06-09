@@ -1,14 +1,6 @@
 # **React Shaders** [![lusat minzip package size](https://img.shields.io/bundlephobia/minzip/react-shaders?label=zipped)](https://www.npmjs.com/package/react-shaders) [![lusat package version](https://img.shields.io/npm/v/react-shaders.svg?colorB=green)](https://www.npmjs.com/package/react-shaders) [![lusat license](https://img.shields.io/npm/l/react-shaders.svg?colorB=lightgrey)](https://github.com/rysanacom/react-shaders/blob/main/LICENSE)
 
-Modern GLSL/WebGL bindings & components for React and Typescript.
-
-```bash
-npm i react-shaders
-```
-
 **React Shaders** is an open source library for creating GLSL/WebGL shaders with support for modern shader bindings like those in Shadertoy. `react-shaders` is built on top of [Morgan Villedieu's `shadertoy-react`](https://github.com/mvilledieu/shadertoy-react).
-
-### Basic example
 
 <table>
 <tr>
@@ -43,14 +35,9 @@ void mainImage(out vec4 O,in vec2 I){
 </tr>
 </table>
 
-## Installation
+### Installation
 
 <table>
-<tr>
-<th width="292px"><code>npm</code></th>
-<th width="293px"><code>pnpm</code></th>
-<th width="292px"><code>bun</code></th>
-</tr>
 <tr>
 <td>
 
