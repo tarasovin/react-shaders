@@ -1,6 +1,6 @@
 {
   "name": "re-shaders",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "React Shaders is an open source library for creating GLSL/WebGL shaders in React and Typescript, with support for modern shader bindings.",
   "homepage": "https://tarasov.in/re-shaders",
   "repository": {
