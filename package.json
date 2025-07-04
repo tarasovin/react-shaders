@@ -1,11 +1,11 @@
 {
-  "name": "react-shaders",
-  "version": "0.0.5",
-  "description": "React Shaders is an open source library for creating GLSL/WebGL shaders in React and Typescript, with support for modern shader bindings like those in Shadertoy and Rysana.",
-  "homepage": "https://rysana.com/docs/react-shaders",
+  "name": "re-shaders",
+  "version": "0.0.6",
+  "description": "React Shaders is an open source library for creating GLSL/WebGL shaders in React and Typescript, with support for modern shader bindings.",
+  "homepage": "https://tarasov.in/re-shaders",
   "repository": {
     "type": "git",
-    "url": "https://github.com/rysanacom/react-shaders"
+    "url": "https://github.com/tarasovin/react-shaders"
   },
   "license": "MIT",
   "exports": {
@@ -27,13 +27,13 @@
     "dev": "tsup --watch"
   },
   "devDependencies": {
-    "@types/react": "^18.3.1",
-    "@types/react-dom": "^18.3.0",
+    "@types/react": "^19.1.2",
+    "@types/react-dom": "^19.1.2",
     "tsup": "^8",
     "typescript": "^5.4.5"
   },
   "peerDependencies": {
-    "react": "^18.3.1",
-    "react-dom": "^18.3.1"
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0"
   }
 }

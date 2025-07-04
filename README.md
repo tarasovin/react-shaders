@@ -1,6 +1,6 @@
-# **React Shaders** [![lusat minzip package size](https://img.shields.io/bundlephobia/minzip/react-shaders?label=zipped)](https://www.npmjs.com/package/react-shaders) [![lusat package version](https://img.shields.io/npm/v/react-shaders.svg?colorB=green)](https://www.npmjs.com/package/react-shaders) [![lusat license](https://img.shields.io/npm/l/react-shaders.svg?colorB=lightgrey)](https://github.com/rysanacom/react-shaders/blob/main/LICENSE)
+# **React Shaders** [![lusat minzip package size](https://img.shields.io/bundlephobia/minzip/react-shaders?label=zipped)](https://www.npmjs.com/package/react-shaders) [![lusat package version](https://img.shields.io/npm/v/react-shaders.svg?colorB=green)](https://www.npmjs.com/package/react-shaders) 
 
-**React Shaders** is an open source library for creating GLSL/WebGL shaders with support for modern shader bindings like those in Shadertoy. `react-shaders` is built on top of [Morgan Villedieu's `shadertoy-react`](https://github.com/mvilledieu/shadertoy-react).
+**React Shaders** is an open source library for creating GLSL/WebGL shaders with support for modern shader bindings.
 
 <table>
 <tr>
@@ -11,7 +11,7 @@
 <td>
 
 ```jsx
-import { Shader } from 'react-shaders'
+import { Shader } from 're-shaders'
 import code from './example.glsl'
 
 return (
@@ -42,21 +42,21 @@ void mainImage(out vec4 O,in vec2 I){
 <td>
 
 ```bash
-npm i react-shaders
+npm i re-shaders
 ```
 
 </td>
 <td>
 
 ```bash
-pnpm i react-shaders
+pnpm i re-shaders
 ```
 
 </td>
 <td>
 
 ```bash
-bun add react-shaders
+bun add re-shaders
 ```
 
 </td>
